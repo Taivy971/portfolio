@@ -10,7 +10,7 @@
 
 .accueil .overlap-group {
   align-items: center;
-  background-image: url(../img/80623e5a75ccb7a9c5858fa30a632a5c-gigapixel-standard-scale-2-00x--1.png);
+  background-image: url(80623e5a75ccb7a9c5858fa30a632a5c-gigapixel-standard-scale-2-00x--1.png);
   background-size: 100% 100%;
   display: flex;
   flex-direction: column;
@@ -90,9 +90,11 @@
 
 .accueil .navbar {
   align-items: center;
-  display: inline-flex;
+  display: flex;
   gap: 56px;
+  justify-content: flex-end;
   position: relative;
+  width: 788px;
 }
 
 .accueil .navbar-link {
