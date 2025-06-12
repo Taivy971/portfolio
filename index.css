@@ -76,6 +76,7 @@
   width: 100%;
   z-index: 2;
   gap: 56px; /* réduire le gap */
+}
 
 .accueil .accueil-1 {
   color: var(--white);
