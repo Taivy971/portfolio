@@ -67,15 +67,15 @@
   align-items: center;
   background-color: var(--cod-gray);
   display: flex;
-  gap: 468px;
+  justify-content: center; /* centrer le contenu */
   height: 152px;
   left: 0;
-  padding: 0 80px;
+  padding: 0 20px; /* réduire le padding */
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 2;
-}
+  gap: 56px; /* réduire le gap */
 
 .accueil .accueil-1 {
   color: var(--white);
