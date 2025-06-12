@@ -63,14 +63,18 @@
   padding: 0 46.6px;
 }
 
-.outils .navigation {
+.accueil .navigation {
   align-items: center;
   background-color: var(--cod-gray);
   display: flex;
-  gap: 421px;
+  gap: 468px;
   height: 152px;
+  left: 0;
   padding: 0 80px;
-  width: 1440px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
 }
 
 .accueil .accueil-1 {
