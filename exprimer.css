@@ -1,13 +1,33 @@
 /* screen - exprimer */
 
 .exprimer {
-  align-items: flex-end;
+  align-items: center;
   background-color: var(--white);
   display: flex;
   flex-direction: column;
-  height: 2221px;
+  height: 5557px;
   overflow: hidden;
   width: 1440px;
+}
+
+.exprimer .overlap-group4 {
+  align-items: flex-start;
+  background-image: url(80623e5a75ccb7a9c5858fa30a632a5c-gigapixel-standard-scale-2-00x-.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 1081px;
+  min-width: 1440px;
+  padding: 460px 561px;
+  z-index: 1;
+}
+
+.exprimer .title {
+  color: var(--white);
+  font-weight: 700;
+  height: 77px;
+  line-height: normal;
+  min-width: 318px;
+  text-align: center;
 }
 
 .exprimer .navigation {
@@ -21,7 +41,7 @@
   position: fixed;
   top: 0;
   width: 1440px;
-  z-index: 4;
+  z-index: 10;
 }
 
 .exprimer .accueil {
@@ -78,28 +98,10 @@
   width: 69px;
 }
 
-.exprimer .overlap-group1 {
-  align-items: flex-start;
-  background-image: url(80623e5a75ccb7a9c5858fa30a632a5c-gigapixel-standard-scale-2-00x--1.png);
-  height: 929px;
-  margin-top: 152px;
-  padding: 308px 561px;
-  z-index: 1;
-}
-
-.exprimer .title {
-  color: var(--white);
-  font-weight: 700;
-  height: 77px;
-  line-height: normal;
-  min-width: 318px;
-  text-align: center;
-}
-
 .exprimer .group-1 {
   align-items: flex-start;
   display: flex;
-  margin-right: -2px;
+  margin-left: 2.0px;
   min-width: 1442px;
   z-index: 2;
 }
@@ -107,8 +109,11 @@
 .exprimer .overlap-group {
   align-items: flex-end;
   background-image: url(vector-5.svg);
+  background-size: 100% 100%;
+  display: flex;
   height: 239px;
   justify-content: flex-end;
+  min-width: 1440px;
   padding: 29px 101px;
 }
 
@@ -121,23 +126,196 @@
   width: 1237px;
 }
 
+.exprimer .group-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 6.0px;
+  margin-top: 77px;
+  min-height: 394px;
+  width: 1284px;
+  z-index: 5;
+}
+
+.exprimer .pub-en-anglais {
+  color: var(--black);
+  font-weight: 500;
+  line-height: 64px;
+  width: 1266px;
+}
+
+.exprimer .caresse-antillaise-lamricaine {
+  color: var(--black);
+  font-weight: 500;
+  height: 44px;
+  line-height: 44px;
+  margin-top: 39px;
+  min-width: 573px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.exprimer .cette {
+  color: var(--black-2);
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 23px;
+  min-height: 224px;
+  text-align: justify;
+  width: 1278px;
+}
+
+.exprimer .overlap-group3 {
+  height: 720px;
+  margin-right: 12.0px;
+  margin-top: 77px;
+  position: relative;
+  width: 1280px;
+  z-index: 4;
+}
+
+.exprimer .capture-dcran-2025-06-12-192 {
+  cursor: pointer;
+  height: 720px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1280px;
+}
+
+.exprimer .group-2 {
+  align-items: flex-start;
+  background-color: var(--fog);
+  border-radius: 76.84px;
+  cursor: pointer;
+  display: flex;
+  height: 154px;
+  justify-content: flex-end;
+  left: 563px;
+  min-width: 154px;
+  padding: 49.5px 42.4px;
+  position: absolute;
+  top: 283px;
+}
+
+.exprimer .vector-3 {
+  height: 54px;
+  width: 49px;
+}
+
+.exprimer .group-13 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 6.0px;
+  margin-top: 154px;
+  min-height: 426px;
+  width: 1284px;
+  z-index: 7;
+}
+
+.exprimer .sport-publicitaire {
+  color: var(--black);
+  font-weight: 500;
+  line-height: 64px;
+  width: 1266px;
+}
+
+.exprimer .harclement-psychologique {
+  color: var(--black);
+  font-weight: 500;
+  height: 44px;
+  line-height: 44px;
+  margin-top: 39px;
+  min-width: 450px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.exprimer .ce-type-de-spot-cher {
+  color: var(--black-2);
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 23px;
+  min-height: 256px;
+  text-align: justify;
+  width: 1278px;
+}
+
+.exprimer .overlap-group1 {
+  height: 720px;
+  margin-right: 12.0px;
+  margin-top: 77px;
+  position: relative;
+  width: 1280px;
+  z-index: 6;
+}
+
+.exprimer .group-14 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 6.0px;
+  margin-top: 154px;
+  min-height: 394px;
+  width: 1284px;
+  z-index: 9;
+}
+
+.exprimer .interview-thmatique {
+  color: var(--black);
+  font-weight: 500;
+  line-height: 64px;
+  width: 1266px;
+}
+
+.exprimer .bwa-galba-les-jeunes-et-la-prison {
+  color: var(--black);
+  font-weight: 500;
+  height: 44px;
+  line-height: 44px;
+  margin-top: 39px;
+  min-width: 592px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.exprimer .overlap-group2 {
+  height: 720px;
+  margin-right: 12.0px;
+  margin-top: 77px;
+  position: relative;
+  width: 1280px;
+  z-index: 8;
+}
+
+.exprimer .group-26 {
+  align-items: flex-start;
+  background-color: var(--fog);
+  border-radius: 76.84px;
+  display: flex;
+  height: 154px;
+  justify-content: flex-end;
+  left: 563px;
+  min-width: 154px;
+  padding: 49.5px 42.4px;
+  position: absolute;
+  top: 283px;
+}
+
 .exprimer .group-12 {
   align-items: center;
+  align-self: flex-end;
   background-color: var(--black);
   border-radius: 20px;
   cursor: pointer;
   display: flex;
   height: 58px;
   justify-content: flex-end;
-  margin-right: 98.35px;
-  margin-top: 747px;
+  margin-right: 79.35px;
+  margin-top: 91px;
   min-width: 161px;
   padding: 0 46.6px;
   z-index: 3;
-}
-
-.exprimer .overlap {
-  background-size: 100% 100%;
-  display: flex;
-  min-width: 1440px;
 }
