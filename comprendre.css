@@ -10,6 +10,23 @@
   width: 1440px;
 }
 
+.comprendre .overlap-group1 {
+  align-items: flex-start;
+  background-image: url(80623e5a75ccb7a9c5858fa30a632a5c-gigapixel-standard-scale-2-00x-.png);
+  height: 1081px;
+  padding: 460px 498px;
+  z-index: 3;
+}
+
+.comprendre .title {
+  color: var(--white);
+  font-weight: 700;
+  height: 77px;
+  line-height: normal;
+  text-align: center;
+  width: 443px;
+}
+
 .comprendre .navigation {
   align-items: center;
   background-color: var(--cod-gray);
@@ -23,17 +40,6 @@
   z-index: 8;
 }
 
-.comprendre .accueil {
-  color: var(--white);
-  cursor: pointer;
-  font-weight: 500;
-  height: 30px;
-  line-height: 30px;
-  margin-bottom: 2.0px;
-  white-space: nowrap;
-  width: 71px;
-}
-
 .comprendre .navbar {
   align-items: center;
   display: flex;
@@ -41,16 +47,6 @@
   justify-content: flex-end;
   position: relative;
   width: 788px;
-}
-
-.comprendre .navbar-link {
-  color: var(--white);
-  cursor: pointer;
-  font-weight: 500;
-  line-height: 30px;
-  position: relative;
-  white-space: nowrap;
-  width: fit-content;
 }
 
 .comprendre .button {
@@ -65,34 +61,6 @@
   justify-content: center;
   padding: 14px 24px;
   position: relative;
-}
-
-.comprendre .place {
-  color: var(--black);
-  font-weight: 500;
-  line-height: 24px;
-  margin-top: -1.00px;
-  position: relative;
-  text-align: center;
-  width: 69px;
-}
-
-.comprendre .overlap-group1 {
-  align-items: flex-start;
-  background-image: url(80623e5a75ccb7a9c5858fa30a632a5c-gigapixel-standard-scale-2-00x--1.png);
-  height: 929px;
-  margin-top: 152px;
-  padding: 308px 498px;
-  z-index: 3;
-}
-
-.comprendre .title {
-  color: var(--white);
-  font-weight: 700;
-  height: 77px;
-  line-height: normal;
-  text-align: center;
-  width: 443px;
 }
 
 .comprendre .group-1 {
@@ -304,6 +272,11 @@
   min-width: 161px;
   padding: 0 46.6px;
   z-index: 1;
+}
+
+.comprendre .vector-2 {
+  height: 38px;
+  width: 63px;
 }
 
 .comprendre .overlap {
