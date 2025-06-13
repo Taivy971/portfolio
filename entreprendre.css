@@ -1,13 +1,30 @@
 /* screen - entreprendre */
 
 .entreprendre {
-  align-items: flex-end;
+  align-items: center;
   background-color: var(--white);
   display: flex;
   flex-direction: column;
-  height: 2221px;
+  height: 13211px;
   overflow: hidden;
   width: 1440px;
+}
+
+.entreprendre .overlap-group1 {
+  align-items: flex-start;
+  background-image: url(80623e5a75ccb7a9c5858fa30a632a5c-gigapixel-standard-scale-2-00x-.png);
+  height: 1081px;
+  padding: 460px 473px;
+  z-index: 10;
+}
+
+.entreprendre .title {
+  color: var(--white);
+  font-weight: 700;
+  height: 77px;
+  line-height: normal;
+  min-width: 494px;
+  text-align: center;
 }
 
 .entreprendre .navigation {
@@ -21,7 +38,7 @@
   position: fixed;
   top: 0;
   width: 1440px;
-  z-index: 4;
+  z-index: 12;
 }
 
 .entreprendre .accueil {
@@ -78,30 +95,12 @@
   width: 69px;
 }
 
-.entreprendre .overlap-group1 {
-  align-items: flex-start;
-  background-image: url(80623e5a75ccb7a9c5858fa30a632a5c-gigapixel-standard-scale-2-00x--1.png);
-  height: 929px;
-  margin-top: 152px;
-  padding: 308px 473px;
-  z-index: 1;
-}
-
-.entreprendre .title {
-  color: var(--white);
-  font-weight: 700;
-  height: 77px;
-  line-height: normal;
-  min-width: 494px;
-  text-align: center;
-}
-
 .entreprendre .group-1 {
   align-items: flex-start;
   display: flex;
-  margin-right: -2px;
+  margin-left: 2.0px;
   min-width: 1442px;
-  z-index: 2;
+  z-index: 9;
 }
 
 .entreprendre .overlap-group {
@@ -121,23 +120,332 @@
   width: 1237px;
 }
 
+.entreprendre .group-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 3.0px;
+  margin-top: 77px;
+  min-height: 394px;
+  width: 1285px;
+  z-index: 8;
+}
+
+.entreprendre .tion-d {
+  color: var(--black);
+  font-weight: 500;
+  line-height: 64px;
+  width: 1279px;
+}
+
+.entreprendre .pluie-et-vent-sur-tlum-miracle {
+  color: var(--black);
+  font-weight: 500;
+  height: 44px;
+  line-height: 44px;
+  margin-top: 39px;
+  min-width: 520px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.entreprendre .surname {
+  min-height: 224px;
+}
+
+.entreprendre .group-14 {
+  align-items: flex-start;
+  display: flex;
+  gap: 39px;
+  height: 1014px;
+  margin-left: 0.17px;
+  margin-top: 77px;
+  min-width: 1278px;
+  z-index: 7;
+}
+
+.entreprendre .flex-col {
+  flex-direction: column;
+  gap: 59px;
+  min-height: 1014px;
+  width: 400px;
+}
+
+.entreprendre .composition-de-l_qui {
+  height: 389px;
+  width: 400px;
+}
+
+.entreprendre .dpouillement_grp2-_d {
+  height: 389px;
+  width: 400px;
+}
+
+.entreprendre .choix-du-matriel-uti {
+  height: 566px;
+  object-fit: cover;
+  width: 400px;
+}
+
+.entreprendre .pluie-et-vent-sur-tl {
+  height: 389px;
+  width: 400px;
+}
+
+.entreprendre .group-13 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 7.0px;
+  margin-top: 154px;
+  min-height: 522px;
+  width: 1285px;
+  z-index: 6;
+}
+
+.entreprendre .blok-ple-ia {
+  color: var(--black);
+  font-weight: 500;
+  height: 44px;
+  line-height: 44px;
+  margin-top: 39px;
+  min-width: 242px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.entreprendre .surname-1 {
+  min-height: 352px;
+}
+
+.entreprendre .group-15 {
+  align-items: flex-start;
+  display: flex;
+  gap: 39px;
+  margin-right: 0.3px;
+  margin-top: 77px;
+  min-width: 1278px;
+  z-index: 5;
+}
+
+.entreprendre .x05de863a3deb57088adfd50a8ee43814 {
+  height: 565px;
+  object-fit: cover;
+  width: 400px;
+}
+
+.entreprendre .group-16 {
+  height: 4533px;
+  margin-left: 1.72px;
+  margin-top: 77px;
+  width: 1280px;
+  z-index: 4;
+}
+
+.entreprendre .group-17 {
+  align-items: flex-start;
+  display: flex;
+  gap: 39px;
+  height: 1776px;
+  margin-top: 77px;
+  min-width: 1278px;
+  z-index: 3;
+}
+
+.entreprendre .audiovisuel-ia-zandronis_page-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 39px;
+  min-height: 1776px;
+  width: 400px;
+}
+
+.entreprendre .audiovisuel-ia-zandronis_page-0008 {
+  height: 566px;
+  object-fit: cover;
+  width: 400px;
+}
+
+.entreprendre .audiovisuel-ia-zandronis_page-0003 {
+  height: 566px;
+  object-fit: cover;
+  width: 400px;
+}
+
+.entreprendre .audiovisuel-ia-zandronis_page-0006 {
+  height: 566px;
+  object-fit: cover;
+  width: 400px;
+}
+
+.entreprendre .audiovisuel-ia-zandronis_page-0001 {
+  height: 566px;
+  object-fit: cover;
+  width: 400px;
+}
+
+.entreprendre .audiovisuel-ia-zandronis_page-0004 {
+  height: 566px;
+  object-fit: cover;
+  width: 400px;
+}
+
+.entreprendre .audiovisuel-ia-zandronis_page-0007 {
+  height: 566px;
+  object-fit: cover;
+  width: 400px;
+}
+
+.entreprendre .audiovisuel-ia-zandronis_page-container-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 39px;
+  min-height: 1171px;
+  width: 400px;
+}
+
+.entreprendre .audiovisuel-ia-zandronis_page-0002 {
+  height: 566px;
+  object-fit: cover;
+  width: 400px;
+}
+
+.entreprendre .audiovisuel-ia-zandronis_page-0005 {
+  height: 566px;
+  object-fit: cover;
+  width: 400px;
+}
+
+.entreprendre .group-3-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5.0px;
+  margin-top: 131px;
+  min-height: 490px;
+  width: 1285px;
+  z-index: 2;
+}
+
+.entreprendre .lcho-du-silence {
+  color: var(--black);
+  font-weight: 500;
+  height: 44px;
+  line-height: 44px;
+  margin-top: 39px;
+  min-width: 277px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.entreprendre .surname-2 {
+  min-height: 320px;
+}
+
+.entreprendre .group-18 {
+  align-items: flex-start;
+  display: flex;
+  gap: 19px;
+  height: 1635px;
+  margin-right: 1.73px;
+  margin-top: 45px;
+  min-width: 1278px;
+  z-index: 11;
+}
+
+.entreprendre .flex-col-1 {
+  align-items: flex-start;
+  width: 400px;
+}
+
+.entreprendre .brouillon-lcho-du-silence_page-00 {
+  height: 518px;
+  object-fit: cover;
+  width: 400px;
+}
+
+.entreprendre .brouillon-lcho-du-silence_page-0010 {
+  height: 518px;
+  margin-top: 39px;
+  object-fit: cover;
+  width: 400px;
+}
+
+.entreprendre .whats-app-image-2025 {
+  height: 483px;
+  margin-top: 77px;
+  width: 400px;
+}
+
+.entreprendre .flex-col-2 {
+  align-items: flex-end;
+  gap: 77px;
+  width: 859px;
+}
+
+.entreprendre .flex-row {
+  gap: 39px;
+  height: 1075px;
+  min-width: 839px;
+}
+
+.entreprendre .brouillon-lcho-du-silence_page-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 39px;
+  min-height: 1075px;
+  width: 400px;
+}
+
+.entreprendre .capture-dcran-2025-06-12-171018-1 {
+  height: 483px;
+  margin-right: 0.27px;
+  object-fit: cover;
+  width: 859px;
+}
+
 .entreprendre .group-12 {
   align-items: center;
+  align-self: flex-end;
   background-color: var(--black);
   border-radius: 20px;
   cursor: pointer;
   display: flex;
   height: 58px;
   justify-content: flex-end;
-  margin-right: 94.35px;
-  margin-top: 748px;
+  margin-right: 82.35px;
+  margin-top: 98px;
   min-width: 161px;
   padding: 0 46.6px;
-  z-index: 3;
+  z-index: 1;
+}
+
+.entreprendre .cb79dc25368cf2d5e16eaca526073b2d {
+  height: 566px;
+  object-fit: cover;
+  width: 400px;
+}
+
+.entreprendre .flex-col-3 {
+  display: flex;
+  flex-direction: column;
+  min-height: 1635px;
 }
 
 .entreprendre .overlap {
   background-size: 100% 100%;
   display: flex;
   min-width: 1440px;
+}
+
+.entreprendre .surname-3 {
+  color: var(--black-2);
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 23px;
+  text-align: justify;
+  width: 1278px;
 }
